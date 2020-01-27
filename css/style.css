@@ -1,0 +1,302 @@
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#home h1:hover{
+	color: #FFD700;
+}
+
+#home p:hover{
+	color: #FFD700;
+	font-weight: bolder;
+	font-size: 35px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ .dark{
+ 	padding: 15px;
+ 	background: #35424a;
+ 	color: #ffffff;
+ 	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+ }
+
+ .lighter{
+	 padding : 15px;
+	 background: #282726;
+	 color: #ffffff;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 border-radius: 5px;
+
+ }
+
+/*Header*/
+header{
+	background: #000305;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #c00c0c 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #32CD32;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #FF00FF;
+	font-weight: bold;
+}
+
+/*Home*/
+#home{
+	min-height: 480px;
+	background-image: url("../img/index.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+#pic{
+	min-height: 200px;
+	background-image: url("../img/author.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	margin-top: 30px;
+}
+#main-skills{
+	min-height: 400px;
+	background-image: url("../img/skills.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+#main-about{
+	min-height: 400px;
+	background-image: url("../img/about.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+#main-skills h1,h2,h3,p,li,a{
+	color : #ffffff;
+}
+
+#main-about h1,h2,h3, p, li, a{
+	color : #ffffff;
+}
+#home h1{
+	color: #ffffff;
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#home p{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+/*Boxes*/
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width : 90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+	float: right;
+	width: 34%;
+	margin-top: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+aside#sidebar a:hover{
+	color : #9acd32;
+	text-decoration: underline;
+}
+aside#sidebar p{
+	text-align: left;
+}
+
+aside#skills{
+	float: right;
+	border-radius: 5px;
+	width: 25%;
+	margin-top: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+	color: #ffffff;
+	border: #cccccc solid 1px;
+	border-radius:  5px;
+}
+aside#skills h3{
+	text-align: center;
+}
+aside#skills li{
+	font-size: 16px;
+	list-style: none;
+	margin-left: 10px;
+}
+
+aside#skills li:hover{
+	font-size: 22px;
+	color: #9acd32;
+	font-weight: bolder;
+}
+
+aside#sidebar a{
+	color : #ffffff;
+	text-decoration: none;	
+}
+
+/* Main-col */
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/*Certificates*/
+ul#certs li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	border-radius:  5px;
+	margin-bottom: 5px;
+}
+
+ul#certs h3, p{
+	font-family: "Times New Roman", Times, serif;
+	color: #ffffff;
+}
+
+ul#certs h3:hover{
+	font-size: 25px;
+	color: #9acd32;
+}
+ul#certs p:hover{
+	font-size: 25px;
+	color: #9acd32;
+}
+
+
+
+
+/*Icons*/
+.fa {
+	padding: 20px;
+	font-size: 10px;
+	width: 0px;
+	text-align: right;
+	text-decoration: none;
+	margin: 0px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.5;
+	}
+
+.fa-facebook {
+	color: white;
+  }
+
+  .fa-linkedin {
+	color: white;
+  }
+
+  .fa-github {
+	color: white;
+  }
+
+
+  /*Footer*/
+
+footer{
+	border-top: #c00c0c 3px solid;
+	color: #ffffff;
+	background-color: #000305;
+	text-align: center;
+}
+
+/* Media Queries*/
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+
+	#home h1{
+		margin-top: 40px;
+	}
+}
